@@ -1,0 +1,24 @@
+In file included from /usr/local/include/souffle/BTree.h:20,
+                 from /usr/local/include/souffle/CompiledIndexUtils.h:20,
+                 from /usr/local/include/souffle/CompiledSouffle.h:19,
+                 from output.cpp:2:
+output.cpp: In lambda function:
+output.cpp:476:19: warning: variable ‘rel_1_base_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_base_op_ctxt,rel_1_base->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+output.cpp: In lambda function:
+output.cpp:565:19: warning: variable ‘rel_1_base_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_base_op_ctxt,rel_1_base->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+output.cpp: In lambda function:
+output.cpp:586:19: warning: variable ‘rel_6_delta_tcl_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_6_delta_tcl_op_ctxt,rel_6_delta_tcl->createContext());
+                   ^~~~~~~~~~~~~~~~~~~~~~~
+output.cpp: In lambda function:
+output.cpp:630:19: warning: variable ‘rel_1_base_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_base_op_ctxt,rel_1_base->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+output.cpp: In lambda function:
+output.cpp:653:19: warning: variable ‘rel_1_base_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_base_op_ctxt,rel_1_base->createContext());
+                   ^~~~~~~~~~~~~~~~~~
