@@ -1,0 +1,64 @@
+In file included from /home/rdow6615/souffle/src/../include/souffle/BTree.h:20,
+                 from /home/rdow6615/souffle/src/../include/souffle/CompiledIndexUtils.h:20,
+                 from /home/rdow6615/souffle/src/../include/souffle/CompiledSouffle.h:19,
+                 from output.cpp:2:
+output.cpp: In lambda function:
+output.cpp:1081:19: warning: variable ‘rel_1_edge_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_edge_op_ctxt,rel_1_edge->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+/home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:59:44: note: in definition of macro ‘CREATE_OP_CONTEXT’
+ #define CREATE_OP_CONTEXT(NAME, INIT) auto NAME = INIT;
+                                            ^~~~
+output.cpp: In lambda function:
+output.cpp:1169:19: warning: variable ‘rel_1_edge_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_edge_op_ctxt,rel_1_edge->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+/home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:59:44: note: in definition of macro ‘CREATE_OP_CONTEXT’
+ #define CREATE_OP_CONTEXT(NAME, INIT) auto NAME = INIT;
+                                            ^~~~
+output.cpp: In lambda function:
+output.cpp:1257:19: warning: variable ‘rel_1_edge_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_edge_op_ctxt,rel_1_edge->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+/home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:59:44: note: in definition of macro ‘CREATE_OP_CONTEXT’
+ #define CREATE_OP_CONTEXT(NAME, INIT) auto NAME = INIT;
+                                            ^~~~
+output.cpp: In lambda function:
+output.cpp:1274:19: warning: variable ‘rel_1_edge_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_1_edge_op_ctxt,rel_1_edge->createContext());
+                   ^~~~~~~~~~~~~~~~~~
+/home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:59:44: note: in definition of macro ‘CREATE_OP_CONTEXT’
+ #define CREATE_OP_CONTEXT(NAME, INIT) auto NAME = INIT;
+                                            ^~~~
+output.cpp: In lambda function:
+output.cpp:1299:19: warning: variable ‘rel_8_vertex_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_8_vertex_op_ctxt,rel_8_vertex->createContext());
+                   ^~~~~~~~~~~~~~~~~~~~
+/home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:59:44: note: in definition of macro ‘CREATE_OP_CONTEXT’
+ #define CREATE_OP_CONTEXT(NAME, INIT) auto NAME = INIT;
+                                            ^~~~
+output.cpp: In lambda function:
+output.cpp:1321:19: warning: variable ‘rel_8_vertex_op_ctxt’ set but not used [-Wunused-but-set-variable]
+ CREATE_OP_CONTEXT(rel_8_vertex_op_ctxt,rel_8_vertex->createContext());
+                   ^~~~~~~~~~~~~~~~~~~~
+/home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:59:44: note: in definition of macro ‘CREATE_OP_CONTEXT’
+ #define CREATE_OP_CONTEXT(NAME, INIT) auto NAME = INIT;
+                                            ^~~~
+In file included from /home/rdow6615/souffle/src/../include/souffle/UnionFind.h:19,
+                 from /home/rdow6615/souffle/src/../include/souffle/BinaryRelation.h:20,
+                 from /home/rdow6615/souffle/src/../include/souffle/CompiledIndexUtils.h:21,
+                 from /home/rdow6615/souffle/src/../include/souffle/CompiledSouffle.h:19,
+                 from output.cpp:2:
+/home/rdow6615/souffle/src/../include/souffle/BlockList.h: In instantiation of ‘souffle::BlockList<T>::BlockList(const souffle::BlockList<T>&) [with T = std::atomic<long unsigned int>]’:
+/home/rdow6615/souffle/src/../include/souffle/UnionFind.h:65:24:   required from here
+/home/rdow6615/souffle/src/../include/souffle/BlockList.h:221:19: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘struct std::atomic<long unsigned int>’ with no trivial copy-assignment [-Wclass-memaccess]
+             memcpy(listData.at(i), other.listData.at(i), BLOCKSIZE);
+             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/rdow6615/souffle/src/../include/souffle/ParallelUtils.h:20,
+                 from /home/rdow6615/souffle/src/../include/souffle/BTree.h:20,
+                 from /home/rdow6615/souffle/src/../include/souffle/CompiledIndexUtils.h:20,
+                 from /home/rdow6615/souffle/src/../include/souffle/CompiledSouffle.h:19,
+                 from output.cpp:2:
+/usr/include/c++/8/atomic:730:12: note: ‘struct std::atomic<long unsigned int>’ declared here
+     struct atomic<unsigned long> : __atomic_base<unsigned long>
+            ^~~~~~~~~~~~~~~~~~~~~
