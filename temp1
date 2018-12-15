@@ -1,0 +1,6 @@
+41.74	1	souffle::Sf_output::runFunction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned long, bool)::{lambda()#1}::operator()() const
+24.41	101587325	bool souffle::Trie<2u>::contains_internal<0u, souffle::ram::Tuple<int, 2ul> >(souffle::ram::Tuple<int, 2ul> const&, souffle::Trie<2u>::op_context&) const
+12.99	100354432	bool souffle::Trie<2u>::iterator_core<0u>::inc<souffle::ram::Tuple<int, 2ul> >(souffle::ram::Tuple<int, 2ul>&)
+12.60	101016960	souffle::Trie<2u>::iterator_core<0u>::operator==(souffle::Trie<2u>::iterator_core<0u> const&) const
+3.54	1068218	souffle::SparseArray<souffle::Trie<1u>*, 6u, souffle::Trie<2u>::nested_trie_merger, souffle::Trie<2u>::nested_trie_cloner>::iterator::operator++()
+3.15	4	void std::vector<souffle::Relation*, std::allocator<souffle::Relation*> >::_M_realloc_insert<souffle::Relation* const&>(__gnu_cxx::__normal_iterator<souffle::Relation**, std::vector<souffle::Relation*, std::allocator<souffle::Relation*> > >, souffle::Relation* const&)
